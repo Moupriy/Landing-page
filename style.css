@@ -1,0 +1,147 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width:  100%
+}
+#main {
+    height: 100%;
+    width: 100%;
+    
+    background-color:rgba(136, 172, 208, 0.445) ;
+    display : flex ;
+
+}
+#part1{
+       height: 100%;
+       width: 35%;
+      
+      /* background-color: red; */
+
+}
+#part2{
+    height: 100%;
+    width: 50%;
+    
+    background-color:rgba(19, 14, 14, 0.575);
+    background-image: url(https://images.unsplash.com/photo-1542372147193-a7aca54189cd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+      
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(154, 239, 245, 0.156);
+   }
+#part3{
+    height: 100%;
+    width: 15%;
+   /* background-color:rgb(0, 128, 87) ;*/
+
+}
+#text-div{
+    height:250px;
+    position: absolute;
+    width: 450px;
+   /*background-color: rgba(234, 135, 135, 0.573);*/
+   
+    left:10%;
+    top:50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 40px;
+    font-family: monument;
+    font-style: italic;
+    
+    font-weight:50;
+    line-height: 60px;
+    text-transform: uppercase;
+    
+}
+
+
+#small-image-div{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(118, 22, 183);
+    background-image: url(https://media.istockphoto.com/id/1173383485/photo/milk-is-poured-into-the-coffee-on-a-dark-wooden-tray-with-croissants.jpg?s=1024x1024&w=is&k=20&c=C3ic_L2HCiqXEf4Nn4J3iuKc8HfS_zmIi3HayF9xyug=);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 32%;
+    right:-5%;
+    transform: translate(0.-50%);
+
+}
+
+#vertical-text{
+    position:absolute;
+    transform:rotate(-90deg);
+    right:-30%;
+    top:-14%;
+    
+    
+    width: 100%;
+    
+    /*background-color: rgb(234, 135, 135,0.573);*/
+
+
+   }
+  #vertical-text>h1 {
+    font-size: 45px;
+    
+    font-weight: 400;
+    color: transparent;
+    
+    
+    
+    
+    font-family: monument;
+    font-style: italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(241, 228, 228, 0.785);
+
+   }
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    left:5%;
+    top:5%;
+    /*background-color: red;*/
+}
+#nav_image{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fcafe-logo--450360031497846200%2F&psig=AOvVaw3KkXLktUKT0ZiNi6BUuxZ2&ust=1716701745203000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDvu8qKqIYDFQAAAAAdAAAAABAE);
+    height: 50px;
+
+}
+nav h5{
+     font-size: 60px;
+     color: #c78b8b;
+     
+}
+#buttom{
+    background-blend-mode: color;
+    background-color:rgb(133, 56, 56);
+    display: flex;
+    align-items: center;
+    width:138px
+}
+#buttom>h1{
+    font-size: 24px;
+    
+}
+
+
+
+
+    
+
+   
